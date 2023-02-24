@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row text-center">
         <?php foreach($barangs as $barang) : ?>
-            <div class="card ml-4" style="width: 18rem;">
+            <div class="card ml-4 mb-4" style="width: 18rem;">
                 <img src="<?php echo base_url().'/uploads/'.$barang->gambar ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title mb-1"><?php echo $barang->nama_barang ?></h5>
